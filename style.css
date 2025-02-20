@@ -3,3 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+.sidebar {
+  height: 100vh;
+  width: 4vw;
+  background-color: aqua;
+  position: fixed;
+  z-index: 9999;
+  border: 2px solid red;
+}
+.header {
+  height: 20vh;
+  width: 100%;
+  background-color: blue;
+  border: 2px solid orange;
+  position: fixed;
+}
+
+.container {
+  height: 50vh;
+  background-color: yellowgreen;
+  border: 2px solid black;
+}
