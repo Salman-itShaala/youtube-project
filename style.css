@@ -9,6 +9,16 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* body::-webkit-scrollbar {
+  width: 8px;
+  background-color: #0f0f0f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10px;
+} */
+
 .sidebar {
   padding-top: 20px;
   height: 100vh;
@@ -43,7 +53,8 @@ body {
 .header-top {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  align-items: center;
+  padding: 16px 20px;
 }
 .header-center {
   display: flex;
@@ -89,6 +100,30 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+}
+
+.header-bottom {
+  padding-left: 40px;
+}
+.header-bottom ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  overflow: auto;
+}
+
+/* to hide scrollbars */
+.header-bottom ul::-webkit-scrollbar {
+  display: none;
+}
+
+.header-bottom ul li {
+  background-color: #313131;
+  /* font-weight: bold; */
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  flex-shrink: 0;
 }
 
 .container {
