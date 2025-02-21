@@ -127,7 +127,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
-  height: 200vh;
   background-color: #0f0f0f;
   border: 2px solid black;
   padding-left: 6vw;
@@ -140,6 +139,8 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .video-card {
@@ -183,6 +184,54 @@ body::-webkit-scrollbar-thumb {
 }
 
 .vid-analytics {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.shorts-heading {
+  padding: 40px 0;
+  padding-left: 40px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.shorts-para {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shorts-option {
+  display: flex;
+  flex-direction: column;
+  line-height: 6px;
+}
+
+.shorts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.short-card {
+  width: 224px;
+}
+
+.short-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.short-title {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.short-views {
   color: #aaa;
   font-size: 14px;
 }
