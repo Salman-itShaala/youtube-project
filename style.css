@@ -128,6 +128,61 @@ body::-webkit-scrollbar-thumb {
 
 .container {
   height: 200vh;
-  background-color: yellowgreen;
+  background-color: #0f0f0f;
   border: 2px solid black;
+  padding-left: 6vw;
+  padding-top: 20vh;
+  color: white;
+}
+
+.videos-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.video-card {
+  width: 344px;
+}
+
+.vid-img {
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.vid-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.vid-info {
+  display: flex;
+  gap: 12px;
+}
+
+.info-left img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.info-right {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vid-title {
+  font-weight: bold;
+}
+
+.channel-name {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.vid-analytics {
+  color: #aaa;
+  font-size: 14px;
 }
